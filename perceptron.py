@@ -149,6 +149,7 @@ plot_decision_regions(X, y, classifier=ppn)
 
 plt.xlabel('sepal length [cm]')
 plt.ylabel('petal length [cm]')
+plt.title('Decision Regions')
 
 plt.legend(loc='upper left')
 
